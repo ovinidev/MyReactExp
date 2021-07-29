@@ -6,11 +6,11 @@ export const Header = () => {
       <strong>Logo</strong>
       <nav>
         <ul>
-          <li>intro</li>
-          <li>top 3</li>
-          <li>gallery</li>
-          <li>work</li>
-          <li>contact</li>
+          <a href="#">intro</a>
+          <a href="#">top 3</a>
+          <a href="#">gallery</a>
+          <a href="#">work</a>
+          <a href="#">contact</a>
         </ul>
       </nav>
     </header>

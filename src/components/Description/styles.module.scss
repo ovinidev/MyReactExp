@@ -1,0 +1,26 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  
+  .TextContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    
+    h2 {
+      font-size: 3.7rem;
+    }
+    
+    p {
+      font-size: 1.3rem;
+      margin: 1.5rem 0;
+    }
+  }
+
+}
