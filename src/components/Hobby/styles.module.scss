@@ -1,0 +1,50 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem;
+  min-height: 100vh;
+
+  h2 {
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1.5rem 0.8rem;
+  }
+  
+  p {
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 1rem 0;
+    max-width: 500px;
+  }
+
+  img {
+    width: 500px;
+  }
+
+  article {
+    text-align: center;
+  }
+  
+  .Grid1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+  }
+  
+  .Grid2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}
