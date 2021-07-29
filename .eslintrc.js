@@ -60,5 +60,6 @@ module.exports = {
     'click-events-have-key-events': 'off',
     'max-len': 'off',
     'arrow-body-style': 'off',
+    'no-unused-vars': 'off',
   },
 };

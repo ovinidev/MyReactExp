@@ -1,0 +1,43 @@
+.Container {
+  background: #080733;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 100px;
+    margin: 0 auto;
+
+    .TitleContainer {
+      color: white;
+      margin: 0;
+      padding: 0;
+      
+      h1 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: 1.5rem;
+      }
+    }
+
+    .Image {
+      margin: 0;
+      padding: 0;
+      
+      img {
+        width: 700px;
+      }
+    }
+  }
+}

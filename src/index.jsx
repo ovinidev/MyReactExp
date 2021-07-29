@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './templates/Home';
+import { Header } from './components/Header';
+import { Programmer } from './components/Programmer';
+import './styles/global.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div>
+      <Header />
+      <Programmer />
+    </div>
   </React.StrictMode>,
   document.getElementById('root'),
 );
