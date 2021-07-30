@@ -13,7 +13,7 @@ export const Goals = () => {
         <article>
           <h3>React Native</h3>
           <p>
-            Uma dos meus principais objetivos é aprender React Native, acho muito 
+            Um dos meus principais objetivos é aprender React Native, acho muito 
             incrível ver uma aplicação mobile sendo desenvolvida e finalizada. Muito 
             em breve estarei começando meus estudos de React Native.
           </p>
