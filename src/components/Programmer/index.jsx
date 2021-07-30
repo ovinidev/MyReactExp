@@ -2,15 +2,14 @@ import styles from './styles.module.scss';
 
 export const Programmer = () => {
   return (
-    <section className={styles.Container}>
+    <section id="home" className={styles.Container}>
       <div>
         <article className={styles.TitleContainer}>
-          <h1>Estou aprendendo React</h1>
+          <h1>Meus estudos Front-End</h1>
           <p>
-            To wrap up January, we are proud to bring you the release of Firefox 85.
-            In this version we are bringing you support for the :focus-visible
-            pseudo-class in CSS and associated devtools, and the complete removal of
-            Flash support from Firefox.
+            A área que sou apaixonado e que mais estou tendo vontade de 
+            estudar é desenvolvimento web, no momento estou focado em
+            front-end. Cada dia me desafiando para buscar minha auto evolução.
           </p>
         </article>
         <article className={styles.Image}>

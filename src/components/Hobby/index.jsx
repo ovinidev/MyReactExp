@@ -2,25 +2,35 @@ import styles from './styles.module.scss';
 
 export const Hobby = () => {
   return (
-    <section className={styles.Container}>
-      <h2>Hobby</h2>
+    <section id="hobby" className={styles.Container}>
+      <h2>Hobbies</h2>
+      <p>Coisas que curto fazer em meu tempo livre.</p>
       <div className={styles.Grid1}>
         <article>
           <h3>Leitura</h3>
           <img src="/lofi.png" alt="lofi" />
-          <p> Eu leio leio lei djsoa dkaosasasasasasasaskdo askdokas okd</p>
+          <p>
+            Ler é uma boa estratégia para relaxar em meio a tantas informações
+            que recebemos no nosso dia a dia.
+          </p>
         </article>
 
         <article>
           <h3>Valorant</h3>
           <img src="/valorant.png" alt="valorant" />
-          <p> Eu leio leio lei djsoa dkaosasasdasdasdkdo askdokas okd</p>
+          <p>
+            Nos fins de semana eu gosto de jogar Valorant com meus amigos, um dos
+            melhores jogos FPS da atualidade.
+          </p>
         </article>
 
         <article>
           <h3>League of legends</h3>
           <img src="/leagueoflegends.png" alt="league of legends" />
-          <p> Eu leio leio lei djsoa dkaoskdo askdokasdasdasdsadsa okd</p>
+          <p>
+            Além do valorant, também curto jogar um lolzinho nas madrugadas. Disparado
+            o melhor jogo MOBA da atualidade.
+          </p>
         </article>
       </div>
 
@@ -28,13 +38,16 @@ export const Hobby = () => {
         <article>
           <h3>Filmes</h3>
           <img src="/marvel.png" alt="filmes" />
-          <p> Eu leio leio lei djsoa dkaoskdo asdasdasdasdasdkdokas okd</p>
+          <p>Um dos meus hobbies favoritos é ir ao cinema para ver os melhores filmes
+            do ano.
+          </p>
         </article>
 
         <article>
           <h3>Musicas</h3>
           <img src="/nike.png" alt="musicas" />
-          <p> Eu leio leio lei djsoa dkaoskdo adasdasdasdasdskdokas okd</p>
+          <p>Durante todo meu dia estou ouvindo músicas, trap brasileiro como destaque.
+          </p>
         </article>
       </div>
     </section>

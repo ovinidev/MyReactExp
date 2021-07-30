@@ -4,7 +4,7 @@ export const Skils = () => {
   return (
     <section className={styles.Container}>
       <article className={styles.title}>
-        <h2>Algumas skils</h2>
+        <h2>Habilidades</h2>
         <p>Sempre buscando melhoria</p>
       </article>
 

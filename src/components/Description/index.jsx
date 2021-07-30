@@ -2,9 +2,9 @@ import styles from './styles.module.scss';
 
 export const Description = () => {
   return (
-    <section className={styles.Container}>
+    <section id="description" className={styles.Container}>
       <article className={styles.TextContainer}>
-        <h2>Estou aprendendo React</h2>
+        <h2>Diariamente estudando React</h2>
         <p>
           To wrap up January, we are proud to bring you the release of Firefox 85.
           In this version we are bringing you support for the :focus-visible

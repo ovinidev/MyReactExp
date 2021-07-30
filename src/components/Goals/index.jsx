@@ -2,7 +2,7 @@ import styles from './styles.module.scss';
 
 export const Goals = () => {
   return (
-    <section className={styles.Container}>
+    <section id="goals" className={styles.Container}>
       <article className={styles.title}>
         <h2>Objetivos como Dev</h2>
         <p>Sempre buscando melhoria</p>

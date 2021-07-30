@@ -6,32 +6,58 @@
   padding: 5rem;
   min-height: 100vh;
   color: rgb(0, 0, 0);
+  text-align: center;
+
+  h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1.5rem 0.8rem;
+  }
   
   .title {
     display: flex;  
-    width: 100%;
     flex-direction: column;
     justify-content: center;
     max-width: 75rem;
+    margin-bottom: 3rem;
     
     h2 {
       font-size: 3.5rem;
       text-transform: uppercase;
-      margin-bottom: 1.5rem;
     }
 
     p {
       font-size: 1.3rem;
+      text-align: center;
+      margin: 1.8rem 0 0 0;
     }
   }
 
   .TextContainer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    
     img {
-      width: 390px;
+      width: 600px;
+      transition: all 0.5s;
+      cursor: pointer;
+    }
+    
+    img:hover {
+      -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+      filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    }
+
+    article {
+      text-align: center;
+
+      p {
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 1rem 0;
+        max-width: 600px;
+      }
     }
   }
 }
