@@ -49,9 +49,11 @@ div {
     display: flex;
     justify-content: center;
     align-items:center;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
 
     i {
-      font-size: 3rem;
+      font-size: 2.4rem;
       color: #440044;
     }
   }

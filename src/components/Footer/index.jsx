@@ -20,7 +20,7 @@ export const Footer = () => {
         </div>
       </footer>
       <a href="#" className={styles.Top}>
-        <i class="far fa-arrow-alt-circle-up"></i>
+        <i class="fas fa-arrow-up"></i>
       </a>
     </div>
   );
