@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Description } from './components/Description';
+import { Footer } from './components/Footer';
 import { Gallery } from './components/Gallery';
 import { Goals } from './components/Goals';
 import { Header } from './components/Header';
@@ -19,6 +20,7 @@ ReactDOM.render(
       <Gallery />
       <Goals />
       <Hobby />
+      <Footer />
     </div>
   </React.StrictMode>,
   document.getElementById('root'),

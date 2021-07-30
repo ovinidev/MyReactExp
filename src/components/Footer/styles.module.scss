@@ -1,0 +1,36 @@
+.Container {
+  background-image: url('../../assets/background.svg');
+  margin: 0 auto;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+
+  a {
+    transition: all 300ms ease-in-out;
+    font-weight: 600;
+    font-family: Lexend, sans-serif;
+  }
+
+  a:hover {
+    color: rgb(218, 107, 201);
+  }
+}
+
+div {
+  .Top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: white;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 50%;
+    border: 0.1rem solid #330033;
+  }
+}
