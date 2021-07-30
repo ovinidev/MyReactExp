@@ -29,6 +29,10 @@
     border-radius: 50%;
   }
 
+  a {
+    color: #741774;
+  }
+
   article {
     text-align: center;
 
@@ -59,5 +63,108 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+  }
+}
+
+@media (max-width: 1366px) {
+  .Container {
+    img {
+      width: 340px;
+    }
+
+    article {
+      h3 {
+        font-size: 1.8rem;
+      }
+      
+      p {
+        max-width: 340px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .Container {
+    img {
+      width: 290px;
+    }
+
+    article {
+      h3 {
+        font-size: 1.7rem;
+      }
+      
+      p {
+        max-width: 290px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem;
+    min-height: 100vh;
+  
+    h2 {
+      font-size: 3.5rem;
+      margin-bottom: 1.5rem;
+      text-transform: uppercase;
+    }
+  
+    p {
+      font-size: 1.3rem;
+      margin-bottom: 2.5rem;
+      text-align: center;
+    }
+  
+    img {
+      width: 390px;
+      transition: all .5s;
+      border: 5px solid transparent;
+    }
+  
+    img:hover {
+      border: 5px solid #440044;
+      border-radius: 50%;
+    }
+  
+    article {
+      text-align: center;
+  
+      h3 {
+        font-size: 2rem;
+        text-align: center;
+        margin: 1.5rem 0.8rem;
+      }
+      
+      p {
+        font-size: 1rem;
+        text-align: center;
+        margin: 1rem 0;
+        max-width: 390px;
+      }
+    }
+    
+    .Grid1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      flex-direction: column;
+    }
+    
+    .Grid2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      flex-direction: column;
+    }
   }
 }

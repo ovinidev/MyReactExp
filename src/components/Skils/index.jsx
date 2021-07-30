@@ -5,7 +5,9 @@ export const Skils = () => {
     <section className={styles.Container}>
       <article className={styles.title}>
         <h2>Habilidades</h2>
-        <p>Sempre buscando melhoria</p>
+        <p>Tudo que aprendi e venho estudando diariamente para me tornar um excelente
+          desenvolvedor.
+        </p>
       </article>
 
       <article className={styles.TextContainer}>
@@ -13,30 +15,28 @@ export const Skils = () => {
         <article>
           <h3>React</h3>
           <p>
-            To wrap up January, we are proud to bring you the release of Firefox 85.
-            In this version we are bringing you support for the :focus-visible
-            pseudo-class in CSS and associated devtools, and the complete removal of
-            Flash support from Firefox.
+            Como dito anteriormente, meus estudos de React são diários, estudando 
+            hooks, consumo de API, SPA, styled components. Além do React, fiz aplicações 
+            com Next.js, visando utilizar SPA, SSR e SSG em uma única aplicação.
+            
           </p>
         </article>
 
         <article>
-          <h3>React</h3>
+          <h3>HTML e CSS</h3>
           <p>
-            To wrap up January, we are proud to bring you the release of Firefox 85.
-            In this version we are bringing you support for the :focus-visible
-            pseudo-class in CSS and associated devtools, and the complete removal of
-            Flash support from Firefox.
+            Um dos principais fundamentos na área de desenvolvimento web. Minha principal
+            preocupação como dev é criar uma aplicação semântica e acessível para
+            todos os usuários, por isso é fundamental estudar e dominar HTML e CSS.
           </p>
         </article>
 
         <article>
-          <h3>React</h3>
+          <h3>Javascript</h3>
           <p>
-            To wrap up January, we are proud to bring you the release of Firefox 85.
-            In this version we are bringing you support for the :focus-visible
-            pseudo-class in CSS and associated devtools, and the complete removal of
-            Flash support from Firefox.
+            Para começar a estudar React é fundamental ter uma boa noção de javascript, 
+            sua sintaxe, arrow functions, map, etc. Tendo um bom entendimento de javascript,
+            começar a desenvolver com React será mais tranquilo.
           </p>
         </article>
 

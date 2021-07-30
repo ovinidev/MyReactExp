@@ -23,5 +23,25 @@
       margin: 1.5rem 0;
     }
   }
+}
 
+@media (max-width: 768px) {
+  .Container {
+    min-height: 100vh;
+    
+    .TextContainer {
+      width: 75%;
+      
+      h2 {
+        margin-top: 2.8rem;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+      }
+      
+      p {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+      }
+    }
+  }
 }

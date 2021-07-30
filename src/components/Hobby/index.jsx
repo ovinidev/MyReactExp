@@ -47,6 +47,10 @@ export const Hobby = () => {
           <h3>Musicas</h3>
           <img src="/nike.png" alt="musicas" />
           <p>Durante todo meu dia estou ouvindo músicas, trap brasileiro como destaque.
+          <a
+            href="https://open.spotify.com/playlist/1FqEEPdabTGDX7BBYHsHTt?si=7271fe8fa1954a3f" 
+            target="_blank"
+            rel="noreferrer"> Minha playlist.</a>
           </p>
         </article>
       </div>
