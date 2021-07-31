@@ -6,6 +6,7 @@
   padding: 5rem;
   min-height: 100vh;
   color: rgb(0, 0, 0);
+  background: rgb(235, 225, 246);
   text-align: center;
 
   h3 {
@@ -143,10 +144,19 @@
 @media (max-width: 620px) {
   .Container {
     .TextContainer {
+      
       img {
         width: 450px;
       }
+
+      article {
+    
+        p {
+          max-width: 450px;
+        }
+      }
     }
+
   }
 }
 
@@ -180,7 +190,7 @@
   .Container {
     .TextContainer {
       img {
-        width: 350px;
+        width: 310px;
       }
     }
   }
