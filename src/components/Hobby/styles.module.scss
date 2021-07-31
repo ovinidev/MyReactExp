@@ -104,49 +104,27 @@
 
 @media (max-width: 768px) {
   .Container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 5rem;
-    min-height: 100vh;
-  
+
     h2 {
-      font-size: 3.5rem;
-      margin-bottom: 1.5rem;
-      text-transform: uppercase;
+      font-size: 2.8rem;
     }
   
     p {
       font-size: 1.3rem;
-      margin-bottom: 2.5rem;
-      text-align: center;
     }
   
     img {
       width: 390px;
-      transition: all .5s;
-      border: 5px solid transparent;
-    }
-  
-    img:hover {
-      border: 5px solid #440044;
-      border-radius: 50%;
     }
   
     article {
-      text-align: center;
   
       h3 {
         font-size: 2rem;
-        text-align: center;
-        margin: 1.5rem 0.8rem;
       }
       
       p {
-        font-size: 1rem;
-        text-align: center;
-        margin: 1rem 0;
+        font-size: 1.1rem;
         max-width: 390px;
       }
     }
@@ -190,7 +168,7 @@
 @media (max-width: 550px) {
   .Container {
     img {
-      width: 350px;
+      width: 400px;
     }
 
     article {
@@ -199,7 +177,7 @@
       }
       
       p {
-        max-width: 350px;
+        max-width: 400px;
       }
     }
   }
@@ -208,7 +186,7 @@
 @media (max-width: 380px) {
   .Container {
     img {
-      width: 250px;
+      width: 280px;
     }
 
     article {
@@ -217,7 +195,7 @@
       }
       
       p {
-        max-width: 250px;
+        max-width: 280px;
       }
     }
   }

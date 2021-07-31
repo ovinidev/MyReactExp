@@ -112,6 +112,10 @@
 
 @media (max-width: 768px) {
   .Container {
+
+    .title {
+      font-size: 2.8rem;
+    }
   
     .TextContainer {
       display: grid;
@@ -120,8 +124,6 @@
       
       img {
         width: 550px;
-        transition: all 0.5s;
-        cursor: pointer;
       }
   
       article {
@@ -157,24 +159,15 @@
       }
     }
     .TextContainer {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      gap: 2rem;
       
       img {
         width: 350px;
-        transition: all 0.5s;
-        cursor: pointer;
       }
   
       article {
-        text-align: center;
-
-
   
         p {
-          font-size: 1rem;
-          text-align: center;
+          font-size: 1.2rem;
           margin: 1rem 0;
           max-width: 350px;
         }
@@ -187,7 +180,7 @@
   .Container {
     .TextContainer {
       img {
-        width: 250px;
+        width: 350px;
       }
     }
   }
