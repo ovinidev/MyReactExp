@@ -1,11 +1,11 @@
 # Landing Page
-Aplicação desenvolvida com React visando treinar a prática de components.
+
 
 <p align="center">
   
-<h1 align="center">
-  
-</h1>
+<h4>
+  Aplicação desenvolvida com React visando treinar a prática de components.
+</h4>
 
 ## 💡 Tecnologias
 
@@ -16,20 +16,23 @@ Tecnologias utilizada no projeto:
 
   
 ## 💻 Projeto
-
+#### O projeto consiste em uma aplicação landing page, foi utilizado o React e o Sass na estilização.
+#### useState e useEffect foram utilizados em algumas situações.
+#### Deixei a aplicação o mais semântico possível, com responsividade para o máximo de dispositivos.
   
 ## 🔍 Layout
 
-Você pode visualizar a funcionalidade do projeto através do [link]().
+Você pode visualizar a funcionalidade do projeto através do [link](https://myreactexperience.netlify.app/).
 
 ## 🚀 Como executar
 
 - Clone o repositório
 - Instale as dependências com `yarn`
-- Inicie a fake api com `yarn server`
-- Inicie o servidor com `yarn dev`
+- Inicie o servidor com `yarn start`
 
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
   
 ## Resultado final:
+<p align="center">
+<img  src="https://i.imgur.com/UkawPr7.png" alt="imagem" width=900px> <br>
 
