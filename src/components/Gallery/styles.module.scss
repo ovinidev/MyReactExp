@@ -64,7 +64,10 @@
 
 @media (max-width: 1366px) {
   .Container {
+
     .TextContainer {
+      grid-template-columns: repeat(2, 1fr);
+
       img {
         width: 500px;
       }
@@ -72,11 +75,36 @@
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 900px) {
   .Container {
     .TextContainer {
+      display: flex;
+      flex-direction: column;
+      
       img {
-        width: 460px;
+        width: 600px;
+      }
+  
+      article {
+  
+        p {
+          margin: 1rem 0;
+          max-width: 600px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .Container {
+
+    .TextContainer {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        width: 680px;
       }
     }
   }
@@ -85,32 +113,13 @@
 @media (max-width: 768px) {
   .Container {
   
-    h3 {
-      font-size: 2rem;
-      text-align: center;
-      margin: 1.5rem 0.8rem;
-    }
-    
-    .title {
-      h2 {
-        font-size: 3.5rem;
-        text-transform: uppercase;
-      }
-  
-      p {
-        font-size: 1.3rem;
-        text-align: center;
-        margin: 1.8rem 0 0 0;
-      }
-    }
-  
     .TextContainer {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       gap: 2rem;
       
       img {
-        width: 600px;
+        width: 550px;
         transition: all 0.5s;
         cursor: pointer;
       }
@@ -122,7 +131,7 @@
           font-size: 1.3rem;
           text-align: center;
           margin: 1rem 0;
-          max-width: 600px;
+          max-width: 550px;
         }
       }
     }
@@ -130,12 +139,55 @@
 }
 
 @media (max-width: 620px) {
-  @media (max-width: 1100px) {
-    .Container {
-      .TextContainer {
-        img {
-          width: 450px;
+  .Container {
+    .TextContainer {
+      img {
+        width: 450px;
+      }
+    }
+  }
+}
+
+@media (max-width: 465px) {
+  .Container {
+  
+    .title {
+      h2 {
+        font-size: 2.8rem;
+      }
+    }
+    .TextContainer {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 2rem;
+      
+      img {
+        width: 350px;
+        transition: all 0.5s;
+        cursor: pointer;
+      }
+  
+      article {
+        text-align: center;
+
+
+  
+        p {
+          font-size: 1rem;
+          text-align: center;
+          margin: 1rem 0;
+          max-width: 350px;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .Container {
+    .TextContainer {
+      img {
+        width: 250px;
       }
     }
   }
