@@ -23,6 +23,7 @@ export const Header = () => {
           <ul onClick={handleClick}>
             <a href="#">Home</a>
             <a href="#description">Descrição</a>
+            <a href="#skils">Habilidades</a>
             <a href="#projetos">Projetos</a>
             <a href="#goals">Objetivos</a>
             <a href="#hobby">Hobbies</a>
