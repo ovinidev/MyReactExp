@@ -18,10 +18,9 @@ export const Header = () => {
       <input className={styles.Menu} id="Menu" type="checkbox" aria-label="close" role="button" />
       <label className={styles.Label} htmlFor="Menu" title="Close menu"></label>
       <header className={styles.Container}>
-        <strong>React</strong>
+        <strong><a href="#home">React</a></strong>
         <nav>
           <ul onClick={handleClick}>
-            <a href="#">Home</a>
             <a href="#description">Descrição</a>
             <a href="#skils">Habilidades</a>
             <a href="#projetos">Projetos</a>

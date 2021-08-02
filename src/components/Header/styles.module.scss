@@ -9,15 +9,18 @@
   box-shadow: 0 0 0.3em rgb(0, 0, 0);
   
   strong {
-    font-family: inter;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: inherit;
+    
+    a {
+      font-family: inter;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      color: inherit;
+    }
   }
 
   ul {
     a {
-      font-size: 1rem;
+      font-size: 1.2rem;
       display: inline-block;
       font-family: inter;
       padding: 0.7rem;
