@@ -17,8 +17,8 @@ Tecnologias utilizada no projeto:
   
 ## 💻 Projeto
 #### O projeto consiste em uma aplicação landing page, foi utilizado o React e o Sass na estilização.
-#### useState e useEffect foram utilizados em algumas situações.
-#### Deixei a aplicação o mais semântico possível, com responsividade para o máximo de dispositivos.
+#### useState e useEffect foram utilizados em algumas partes do projeto.
+#### Deixei a aplicação mais semântica possível, com responsividade para o máximo de dispositivos.
   
 ## 🔍 Layout
 
