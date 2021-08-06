@@ -34,5 +34,5 @@ Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navega
   
 ## Resultado final:
 <p align="center">
-<img  src="https://i.imgur.com/UkawPr7.png" alt="imagem" width=900px> <br>
+<img  src="https://i.imgur.com/M6YrPUk.png" alt="imagem" width=900px> <br>
 
