@@ -22,7 +22,7 @@ export const Header = () => {
         <nav>
           <ul onClick={handleClick}>
             <a href="#description">Descrição</a>
-            <a href="#skils">Habilidades</a>
+            <a href="#skills">Habilidades</a>
             <a href="#projetos">Projetos</a>
             <a href="#goals">Objetivos</a>
             <a href="#hobby">Hobbies</a>
