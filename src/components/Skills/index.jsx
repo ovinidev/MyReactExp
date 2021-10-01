@@ -1,8 +1,8 @@
 import styles from './styles.module.scss';
 
-export const Skils = () => {
+export const Skills = () => {
   return (
-    <section id="skils" className={styles.Container}>
+    <section id="skills" className={styles.Container}>
       <article className={styles.title}>
         <h2>Habilidades</h2>
         <p>Tudo que aprendi e venho estudando diariamente para me tornar um excelente

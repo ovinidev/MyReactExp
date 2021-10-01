@@ -7,7 +7,7 @@ import { Goals } from './components/Goals';
 import { Header } from './components/Header';
 import { Hobby } from './components/Hobby';
 import { Programmer } from './components/Programmer';
-import { Skils } from './components/Skils';
+import { Skills } from './components/Skills';
 import './styles/global.scss';
 
 ReactDOM.render(
@@ -16,7 +16,7 @@ ReactDOM.render(
       <Header />
       <Programmer />
       <Description />
-      <Skils />
+      <Skills />
       <Gallery />
       <Goals />
       <Hobby />
